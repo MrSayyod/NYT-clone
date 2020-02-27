@@ -112,14 +112,11 @@ figure {
 }
 .secondul {
     display: flex;
-    width: 40%;
+    width: 25%;
     align-items: center;
     margin: 5px;
-    
-}
-.secondul {
     list-style-type: none;
-   justify-content: space-between;
+    justify-content: space-between;
 }
 
 article p {
@@ -165,4 +162,152 @@ aside a h3 {
 }
 aside a h3:hover{
     text-decoration: underline;
+}
+.unlockMore {
+    text-align: center;
+    margin: 0 auto;
+    width: 600px;
+}
+.solidBorder {
+    width: 72px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    margin: 0 auto 18px;
+}
+.solidBorder1 {
+    width: 72px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    margin: 18px auto 0;
+}
+.unlockMore p {
+    font-size: 15px;
+    color: #333333;
+    padding: 0;
+    margin: 0;
+}
+.unlockMore a {
+    color: rgb(50, 104, 145);
+    font-size: 15px;
+    text-decoration: none;
+}
+.theory {
+    width: 945px;
+}
+.theTheory > h1 {
+    font-size: 20px;
+    line-height: 1.5rem;
+    font-weight: 700;
+    font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+    margin: 0 0 2px;
+}
+.imgTheory {
+    width: 945px;
+    height: 576px;
+    margin: 0 auto;
+}
+.theTheory > p {
+    color: #666666;
+    font-size: 14px;
+    margin: 0 7px 0 0;
+}
+.imgPos {
+    justify-content: center;
+}
+.ghost {
+    height: 45px;
+}
+.firstrow, .secondrow {
+    display: flex;
+    justify-content: center;
+}
+[class^=fp] {
+    position: relative;
+    top: -450px;
+}
+[class^=sp]{
+    position: relative;
+    top: -370px;
+}
+ [class^=pt] {
+     width: 180px;
+     height: 171px;
+     font-size: 14px;
+ }
+ .fp1, .sp1 {
+    left: -100px;
+}
+.fp2, .sp2 {
+    left: -40px;
+}
+.fp3, .sp3 {
+    left: 10px;
+}
+.fp4, .sp4 {
+    left: 70px;
+}
+.bylarry {
+    color: #333333;
+    font-size: 14px;
+    margin: 0 0 14px;
+}
+iframe {
+    width: 560px;
+    height: 315px;
+}
+.iframefigc {
+    margin: 10px 20px 0 0;
+}
+[class="figc1"] {
+    color: #666666;
+    font-size: 15px;
+    margin: 0 7px 0 0;
+}
+[class="figc2"] {
+    font-size: 12px;
+    color: #888888;
+}
+.lastp {
+    font-size: 12px;
+    color: #666666;
+}
+.comments {
+    display: flex;
+    justify-content: space-between;
+}
+.readcmt {
+    color: white;
+    background-color: #567b95;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 250px;
+}
+[class="morespace"] {
+    border-top: 1px solid black;
+}
+.morespace > h2 a {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+.morespace > h2 a:hover {
+    text-decoration: underline;
+}
+.sectionimg {
+    width: 254.88px;
+    height: 169.91px;
+}
+.figcp {
+    color: #999999;
+    font-size: 10px;
+    margin: 3px 0 0;
+    padding: 0 0 4px;
+}
+.figtime {
+    color: #999999;
+    font-size: 12px;
+}
+.figh3 {
+    color: #121212;
+    font-size: 18px;
+    line-height: 22px;
 }
