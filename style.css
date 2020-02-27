@@ -1,7 +1,168 @@
 html {
     height: auto;
     width: 100%;
+    box-sizing: border-box;
+    
 }
 * {
     border: 1px solid red;
+}
+ul {
+    list-style-type: none;
+}
+.topheader {
+    display: block;
+}
+.container-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 98%;
+    z-index: 200;
+    top: 0;
+    left: 0;
+    padding: 4px 15px 2px;
+    border-bottom: 1px solid #e2e2e2;
+    background-color: white;
+}
+.leftnav {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px rebeccapurple solid;
+    width: 20%;
+
+}
+.leftnav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14.25px;
+    font-family:  Helvetica, Arial, sans-serif;
+    line-height: 19px;
+    font-weight: 600;
+}
+.leftnav a:hover {
+    text-decoration: underline;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center svg {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightnav button {
+    background-color: #567b95;
+    color: white;
+    font-weight: 600;
+    padding: 11px 12px 8px;
+    font-size: 11px;
+    border-radius: 3px;
+}
+
+h1 {
+    color: #121212;
+    font-size: 40px;
+
+}
+
+article {
+    width: 600px;
+    margin: 0 auto;
+}
+
+section {
+    margin: 0 auto;
+    width: 100%;
+}
+figure {
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    
+}
+.bigimgone {
+    position: relative;
+    left: 15%;
+   margin: 0 auto;
+    width: 945px;
+    height: 531px;
+}
+
+.bigimgcap {
+    width: 945px;
+    position: relative;
+    left: 15%;
+    color: #666666;
+    font-size: 15px;
+    margin: 0 7px 0 0;
+}
+.bigimgcap span {
+    color: #888888;
+    font-size: 13px;
+}
+.bydennis {
+    display: flex;
+    justify-content: space-between;
+}
+.secondul {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    margin: 5px;
+    
+}
+.secondul {
+    list-style-type: none;
+   justify-content: space-between;
+}
+
+article p {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    color: #333;
+}
+
+article p a {
+    color: #326891;
+}
+article p a:hover {
+    text-decoration: none;
+}
+
+aside {
+    float: right;
+    width: 210px;
+    margin-right: 3%;
+}
+aside a img {
+    width: 75px;
+    height: 75px;
+
+}
+aside a {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+}
+aside > h3 {
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+aside a h3 {
+    font-family: nyt-cheltenham-small, georgia, "times new roman";   
+    font-size: 14px;
+    width: 100%;
+    color: rgb(65, 64, 64);
+    margin-left: 5px;
+    font-weight: 200;
+}
+aside a h3:hover{
+    text-decoration: underline;
 }
