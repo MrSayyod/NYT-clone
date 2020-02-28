@@ -152,7 +152,7 @@ aside > h3 {
     border-bottom: 1px solid rgb(226, 226, 226);
 }
 aside a h3 {
-    font-family: nyt-cheltenham-small, georgia, 'times new roman';
+    font-family: nyt-cheltenham-small, georgia, sans-serif;
     font-size: 14px;
     width: 100%;
     color: rgb(65, 64, 64);
@@ -340,10 +340,9 @@ iframe {
     width: 1100px;
 }
 .popularbig {
-    margin: 0 auto;
+    margin: 1% auto;
     display: grid;
     grid-template: 1fr / 4fr 2fr;
-    margin: 1%;
     height: 1100px;
 }
 .rowspopular {
