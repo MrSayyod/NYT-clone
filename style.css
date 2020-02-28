@@ -3,7 +3,8 @@ html {
     width: 100%;
     box-sizing: border-box;
 }
-/* * {
+
+/** {
     border: 1px solid red;
 } */
 ul {
@@ -28,14 +29,13 @@ ul {
 .leftnav {
     display: flex;
     justify-content: space-evenly;
-    
     width: 20%;
 }
 .leftnav a {
     text-decoration: none;
     color: black;
     font-size: 14.25px;
-    font-family:  Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     line-height: 19px;
     font-weight: 600;
 }
@@ -68,7 +68,6 @@ main {
 h1 {
     color: #121212;
     font-size: 40px;
-
 }
 article {
     width: 600px;
@@ -77,13 +76,11 @@ article {
 .section11 {
     width: 945px;
     margin: 0 auto;
-
 }
 .section11 figure {
     position: relative;
     left: -150px;
 }
-
 section {
     margin: 0 auto;
     width: 100%;
@@ -96,7 +93,7 @@ figure {
 .bigimgone {
     position: relative;
     left: 15%;
-   margin: 0 auto;
+    margin: 0 auto;
     width: 945px;
     height: 531px;
 }
@@ -104,12 +101,12 @@ figure {
     width: 945px;
     position: relative;
     left: 15%;
-    color: #666666;
+    color: #666;
     font-size: 15px;
     margin: 0 7px 0 0;
 }
 .bigimgcap span {
-    color: #888888;
+    color: #888;
     font-size: 13px;
 }
 .bydennis {
@@ -127,7 +124,7 @@ figure {
 article p {
     font-size: 1.25rem;
     line-height: 1.875rem;
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
     color: #333;
 }
 article p a {
@@ -155,14 +152,14 @@ aside > h3 {
     border-bottom: 1px solid rgb(226, 226, 226);
 }
 aside a h3 {
-    font-family: nyt-cheltenham-small, georgia, "times new roman";   
+    font-family: nyt-cheltenham-small, georgia, 'times new roman';
     font-size: 14px;
     width: 100%;
     color: rgb(65, 64, 64);
     margin-left: 5px;
     font-weight: 200;
 }
-aside a h3:hover{
+aside a h3:hover {
     text-decoration: underline;
 }
 .unlockMore {
@@ -187,7 +184,7 @@ aside a h3:hover{
 }
 .unlockMore p {
     font-size: 15px;
-    color: #333333;
+    color: #333;
     padding: 0;
     margin: 0;
 }
@@ -203,7 +200,7 @@ aside a h3:hover{
     font-size: 20px;
     line-height: 1.5rem;
     font-weight: 700;
-    font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+    font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
     margin: 0 0 2px;
 }
 .imgTheory {
@@ -212,7 +209,7 @@ aside a h3:hover{
     margin: 0 auto;
 }
 .theTheory > p {
-    color: #666666;
+    color: #666;
     font-size: 14px;
     margin: 0 7px 0 0;
 }
@@ -230,16 +227,16 @@ aside a h3:hover{
     position: relative;
     top: -450px;
 }
-[class^=sp]{
+[class^=sp] {
     position: relative;
     top: -370px;
 }
- [class^=pt] {
-     width: 180px;
-     height: 171px;
-     font-size: 14px;
- }
- .fp1, .sp1 {
+[class^=pt] {
+    width: 180px;
+    height: 171px;
+    font-size: 14px;
+}
+.fp1, .sp1 {
     left: -100px;
 }
 .fp2, .sp2 {
@@ -252,7 +249,7 @@ aside a h3:hover{
     left: 70px;
 }
 .bylarry {
-    color: #333333;
+    color: #333;
     font-size: 14px;
     margin: 0 0 14px;
 }
@@ -264,17 +261,17 @@ iframe {
     margin: 10px 20px 0 0;
 }
 [class="figc1"] {
-    color: #666666;
+    color: #666;
     font-size: 15px;
     margin: 0 7px 0 0;
 }
 [class="figc2"] {
     font-size: 12px;
-    color: #888888;
+    color: #888;
 }
 .lastp {
     font-size: 12px;
-    color: #666666;
+    color: #666;
 }
 .comments {
     display: flex;
@@ -287,7 +284,7 @@ iframe {
     border: solid 1px rgb(184, 184, 184);
     border-radius: 50%;
     padding: 2px;
-    background-color: rgb(184, 184, 184);;
+    background-color: rgb(184, 184, 184);
 }
 .css-4brsb6:hover {
     background-color: transparent;
@@ -296,12 +293,10 @@ iframe {
     width: 20px;
     height: 20px;
 }
-
 .bydennis ul li p {
     position: relative;
     left: -40px;
 }
-
 .readcmt {
     color: white;
     background-color: #567b95;
@@ -326,13 +321,13 @@ iframe {
     height: 169.91px;
 }
 .figcp {
-    color: #999999;
+    color: #999;
     font-size: 10px;
     margin: 3px 0 0;
     padding: 0 0 4px;
 }
 .figtime {
-    color: #999999;
+    color: #999;
     font-size: 12px;
 }
 .figh3 {
@@ -378,14 +373,14 @@ iframe {
 .popularsecond h3 {
     width: 100%;
     border-top: 1px solid rgb(226, 226, 226);
-    padding: 11px 0 ;
-}  
+    padding: 11px 0;
+}
 .editorsside {
     border-top: 1px solid black;
 }
 .editorsside a {
     text-decoration: none;
-    color: #333333;
+    color: #333;
     font-size: 16px;
 }
 .gridnav {
@@ -424,7 +419,7 @@ iframe {
 }
 .grid2 a {
     text-decoration: none;
-    color: #000000;
+    color: #000;
     font-size: 14px;
 }
 .grid2 a:hover {
@@ -443,9 +438,9 @@ iframe {
     justify-content: space-around;
     width: 90%;
 }
-.flexnav ul li a{
+.flexnav ul li a {
     font-size: 11px;
-    color: #666666;
+    color: #666;
     text-decoration: none;
 }
 .flexnav ul li a:hover {
@@ -456,7 +451,7 @@ iframe {
     background-color: white;
     z-index: 99;
     width: 100%;
-    height:35px;
+    height: 35px;
     position: fixed;
     bottom: 0;
     display: grid;
@@ -469,7 +464,6 @@ footer {
     grid-column-start: 4;
     grid-column-end: 7;
     padding-top: 10px;
-    
 }
 .last2 {
     grid-column-start: 8;
