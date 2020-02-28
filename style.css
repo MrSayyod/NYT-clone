@@ -2,11 +2,10 @@ html {
     height: auto;
     width: 100%;
     box-sizing: border-box;
-    
 }
-* {
+/** {
     border: 1px solid red;
-}
+}*/
 ul {
     list-style-type: none;
 }
@@ -31,7 +30,6 @@ ul {
     justify-content: space-evenly;
     border: 2px rebeccapurple solid;
     width: 20%;
-
 }
 .leftnav a {
     text-decoration: none;
@@ -58,7 +56,6 @@ main {
     align-items: center;
     justify-content: center;
 }
-
 .rightnav button {
     background-color: #567b95;
     color: white;
@@ -67,18 +64,15 @@ main {
     font-size: 11px;
     border-radius: 3px;
 }
-
 h1 {
     color: #121212;
     font-size: 40px;
 
 }
-
 article {
     width: 600px;
     margin: 0 auto;
 }
-
 section {
     margin: 0 auto;
     width: 100%;
@@ -87,7 +81,6 @@ figure {
     margin: 0 auto;
     width: 100%;
     display: block;
-    
 }
 .bigimgone {
     position: relative;
@@ -96,7 +89,6 @@ figure {
     width: 945px;
     height: 531px;
 }
-
 .bigimgcap {
     width: 945px;
     position: relative;
@@ -121,21 +113,18 @@ figure {
     list-style-type: none;
     justify-content: space-between;
 }
-
 article p {
     font-size: 1.25rem;
     line-height: 1.875rem;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
     color: #333;
 }
-
 article p a {
     color: #326891;
 }
 article p a:hover {
     text-decoration: none;
 }
-
 aside {
     float: right;
     width: 210px;
@@ -144,7 +133,6 @@ aside {
 aside a img {
     width: 75px;
     height: 75px;
-
 }
 aside a {
     display: flex;
@@ -314,7 +302,6 @@ iframe {
     font-size: 18px;
     line-height: 22px;
 }
-
 .popfoot {
     margin: 0 auto;
     width: 1300px;
@@ -325,7 +312,6 @@ iframe {
     grid-template: 1fr 1fr 1fr / 4fr 2fr;
     margin: 1%;
     height: 1200px;
-    
 }
 .rowspopular {
     display: flex;
@@ -335,7 +321,6 @@ iframe {
 .rowspopular div {
     margin-right: 1%;
 }
-
 .rowspopular h3 {
     width: 99%;
 }
@@ -346,16 +331,12 @@ iframe {
     width: 85%;
     margin-left: 10%;
     border-top: 1px solid black;
-    
 }
 .popularsecond a {
     text-decoration: none;
     color: #121212;
     font-size: 19px;
-    
-    
 }
-
 .popularsecond h3 {
     width: 100%;
     border-top: 1px solid rgb(226, 226, 226);
@@ -364,9 +345,94 @@ iframe {
 .editorsside {
     border-top: 1px solid black;
 }
-
 .editorsside a {
     text-decoration: none;
     color: #333333;
     font-size: 16px;
+}
+.gridnav {
+    width: 1300px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-top: 3px double #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+}
+.grid2 {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.css-r5ic95 {
+    width: 10px;
+}
+.gridnav header {
+    display: flex;
+    justify-content: space-between;
+}
+[class="nyt"] {
+    height: 25px;
+}
+.gohome {
+    font-size: 14px;
+    color: #567b95;
+    font-weight: 400;
+    line-height: 11px;
+    text-decoration: none;
+}
+.grid2 * {
+    list-style-type: none;
+    padding-left: 0;
+    text-decoration: none;
+}
+.grid2 a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+}
+.grid2 a:hover {
+    text-decoration: underline;
+}
+.tabborder {
+    padding-top: 10px;
+    border-top: 1px solid #e2e2e2;
+}
+.grid2 div {
+    border-left: 1px solid #e2e2e2;
+    padding-left: 20px;
+}
+.flexnav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+.flexnav ul li a{
+    font-size: 11px;
+    color: #666666;
+    text-decoration: none;
+}
+.flexnav ul li a:hover {
+    text-decoration: none;
+}
+.lastdiv {
+    border-top: 1px solid black;
+    background-color: white;
+    z-index: 99;
+    width: 100%;
+    height:35px;
+    position: fixed;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+footer {
+    padding-bottom: 50px;
+}
+.last1 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    padding-top: 10px;
+    
+}
+.last2 {
+    grid-column-start: 8;
 }
