@@ -7,7 +7,7 @@ NYT clone project (Microverse curriculum)
 
 # Live Demo 
 
-https://rawcdn.githack.com/MrSayyod/NYT-clone/da157f409ca262bb174f31cc7478d1815c518e9c/index.html
+https://rawcdn.githack.com/MrSayyod/NYT-clone/05f1706ee0b8bec203d3a40f215ec73e3b601743/index.html
 
 # Screen Shot
 <img width="960" alt="Screenshot 2020-02-28 16 42 07" src="https://user-images.githubusercontent.com/60448833/75553422-6a415380-5a49-11ea-9323-97487b87748a.png">
