@@ -44,6 +44,9 @@ ul {
 .leftnav a:hover {
     text-decoration: underline;
 }
+main {
+    margin-bottom: 4%;
+}
 .center {
     display: flex;
     align-items: center;
@@ -310,4 +313,60 @@ iframe {
     color: #121212;
     font-size: 18px;
     line-height: 22px;
+}
+
+.popfoot {
+    margin: 0 auto;
+    width: 1300px;
+}
+.popularbig {
+    margin: 0 auto;
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 4fr 2fr;
+    margin: 1%;
+    height: 1200px;
+    
+}
+.rowspopular {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 2%;
+}
+.rowspopular div {
+    margin-right: 1%;
+}
+
+.rowspopular h3 {
+    width: 99%;
+}
+.rowspopular h3, .rowspopular p {
+    margin: 3px;
+}
+.popularsecond {
+    width: 85%;
+    margin-left: 10%;
+    border-top: 1px solid black;
+    
+}
+.popularsecond a {
+    text-decoration: none;
+    color: #121212;
+    font-size: 19px;
+    
+    
+}
+
+.popularsecond h3 {
+    width: 100%;
+    border-top: 1px solid rgb(226, 226, 226);
+    padding: 11px 0 ;
+}  
+.editorsside {
+    border-top: 1px solid black;
+}
+
+.editorsside a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
 }
