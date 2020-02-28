@@ -3,7 +3,6 @@ html {
     width: 100%;
     box-sizing: border-box;
 }
-
 ul {
     list-style-type: none;
 }
@@ -435,7 +434,6 @@ iframe {
 .anyclass {
     display: flex;
     justify-content: space-between;
-
 }
 .flexnav ul {
     display: flex;
