@@ -7,7 +7,7 @@ NYT clone project (Microverse curriculum)
 
 # Live Demo 
 
-
+https://rawcdn.githack.com/MrSayyod/NYT-clone/da157f409ca262bb174f31cc7478d1815c518e9c/index.html
 
 # Getting Started
 To get a local copy up and running follow these simple example steps.
