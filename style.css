@@ -397,7 +397,7 @@ iframe {
 .css-r5ic95 {
     width: 10px;
 }
-.gridnav header {
+.gridnav .header {
     display: flex;
     justify-content: space-between;
 }
