@@ -29,7 +29,12 @@ ul {
 .leftnav {
     display: flex;
     justify-content: space-evenly;
+<<<<<<< HEAD
     width: 20%;
+=======
+    
+    width: 200px;
+>>>>>>> 918721bd7ea7aa36095f13b5012b675dd7a4185a
 }
 .leftnav a {
     text-decoration: none;
@@ -446,6 +451,9 @@ iframe {
 .flexnav ul li a:hover {
     text-decoration: none;
 }
+.flexnav li:hover {
+    text-decoration: underline;
+}
 .lastdiv {
     border-top: 1px solid black;
     background-color: white;
@@ -456,6 +464,7 @@ iframe {
     bottom: 0;
     display: grid;
     grid-template-columns: repeat(9, 1fr);
+    cursor: pointer;
 }
 footer {
     padding-bottom: 50px;
@@ -467,4 +476,10 @@ footer {
 }
 .last2 {
     grid-column-start: 8;
+<<<<<<< HEAD
 }
+=======
+    position: relative;
+    top: -5px;
+}
+>>>>>>> 918721bd7ea7aa36095f13b5012b675dd7a4185a
