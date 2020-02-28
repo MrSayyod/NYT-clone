@@ -29,12 +29,7 @@ ul {
 .leftnav {
     display: flex;
     justify-content: space-evenly;
-<<<<<<< HEAD
-    width: 20%;
-=======
-    
     width: 200px;
->>>>>>> 918721bd7ea7aa36095f13b5012b675dd7a4185a
 }
 .leftnav a {
     text-decoration: none;
@@ -476,10 +471,6 @@ footer {
 }
 .last2 {
     grid-column-start: 8;
-<<<<<<< HEAD
-}
-=======
     position: relative;
     top: -5px;
 }
->>>>>>> 918721bd7ea7aa36095f13b5012b675dd7a4185a
