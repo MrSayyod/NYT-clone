@@ -397,6 +397,10 @@ iframe {
 .css-r5ic95 {
     width: 10px;
 }
+.gridnav .header {
+    display: flex;
+    justify-content: space-between;
+}
 [class="nyt"] {
     height: 25px;
 }
