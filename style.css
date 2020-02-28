@@ -29,7 +29,7 @@ ul {
     display: flex;
     justify-content: space-evenly;
     
-    width: 20%;
+    width: 200px;
 }
 .leftnav a {
     text-decoration: none;
