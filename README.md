@@ -9,6 +9,9 @@ NYT clone project (Microverse curriculum)
 
 https://rawcdn.githack.com/MrSayyod/NYT-clone/da157f409ca262bb174f31cc7478d1815c518e9c/index.html
 
+# Screen Shot
+<img width="960" alt="Screenshot 2020-02-28 16 42 07" src="https://user-images.githubusercontent.com/60448833/75553422-6a415380-5a49-11ea-9323-97487b87748a.png">
+
 # Getting Started
 To get a local copy up and running follow these simple example steps.
 
