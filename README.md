@@ -28,6 +28,7 @@ Github: @MrSayyod
 
 Kubilay Çağlayan
 
+kblycaglayan@gmail.com
 Github: @kblycaglayan
 
 # Contributing
